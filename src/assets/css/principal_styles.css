@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Questrial&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid-sm {
+    width: 45px;
+    height: 40px;
+}
+
+.container-nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.container-nav-logo img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.button-menu {
+    background-color: #363636;
+    color: #fff;
+    border: none;
+    display: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-group button {
+    border: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.button-group button:first-child {
+    background-color: #363636;
+    color: #fff;
+}
+
+.content-box {
+    height: 80vh;
+    background-color: #363636; 
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box; /
+}
+
+.content-box button {
+    margin-top: 10px;
+}
+
+.btn-section {
+    border: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: 363636;
+}
+
+.container-gallery {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* Estilos para cada elemento de la galería (columnas) */
+.gallery-item {
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+/* Estilos para las imágenes dentro de los elementos de la galería */
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .button-group {
+        flex-direction: column;
+    }
+    .button-group button {
+        width: 100%;
+    }
+}
+
+/* Estilos para dispositivos móviles (ancho menor a 768px) */
+@media (max-width: 767px) {
+    .button-menu {
+        display: block;    
+    }
+    #button-container {
+        display: none;
+    }
+    .button-group {
+        flex-direction: column;
+    }
+    .button-group button {
+        width: 100%;
+    }
+}

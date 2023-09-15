@@ -1,0 +1,131 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container-fluid {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+/* Estilos para las columnas */
+.col-3 {
+    flex: 0 0 25%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.col-4 {
+    flex: 0 0 33.333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Margenes */
+.m-5 {
+    margin: 20px;
+}
+
+.m-3 {
+    margin: 10px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.fs-5 {
+    font-size: 45px;
+}
+
+.fs-3 {
+    font-size: 35px;
+}
+
+.fs-1 {
+    font-size: 20px;
+}
+
+.t-white {
+    color: #fff !important;
+}
+
+.align-self-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.bg-primary {
+    background-color: #363636;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text-primary{
+    color: #363636;
+    text-decoration: none;
+}
+
+.p-4 {
+    padding: 40px;
+}
+
+/* Estilos para dispositivos medianos (tabletas) */
+@media (max-width: 991px) {
+    .col-4 {
+        flex: 0 0 33.333%;
+    }
+
+    .col-4 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+    .col-4 {
+        flex: 0 0 100%;
+    }
+
+    .col-4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fs-5 {
+        font-size: 25px;
+    }
+}
