@@ -1,4 +1,4 @@
- # Documentacion API ID-HEALTH (E-commers) 🧑🏻‍💻
+ # Documentacion Pag TITA MEDIA (portafolio) 🧑🏻‍💻
 ## Descripcion 📃:
 _Prueba tecnica para desarrollador web frontend, donde se suministro una maqueta *generica* y se adapto para darle una estetica de apariencia para una galeria o portafolio de super vehiculos._
 
@@ -9,6 +9,8 @@ Se realizo con HTML5, CSS3 y Javascript vanilla, se utilizo algunas funciones pa
 
  * Al clonar o descargar el proyecto:
     * Corra un servidor web "liveServer VSCode" o inicie el index.html en el browser que desee
+ * Puede haceder para previsualizar sin descargar en
+    * https://nikoduarte.github.io/tita-media/src/
 
 ## Estructura de carpetas 📂:
 _Una estructura de carpetas simple y entendible para un entorno de desarrollo_
